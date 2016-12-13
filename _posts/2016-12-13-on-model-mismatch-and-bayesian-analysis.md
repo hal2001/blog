@@ -49,7 +49,7 @@ was first popularized, and when statisticians started to take Bayesian analysis
 more seriously {% cite robert2011short --file 2016-12-13 %}.
 
 Quoting {% cite gelman2012philosophy --style apa-text --file 2016-12-13 %}
-who summarize this perspective,
+who paraphrase this perspective,
 "The expression $$p(\theta\mid y)$$ says it all, and the central goal of Bayesian inference is computing the posterior probabilities of hypotheses. Anything not contained in the posterior distribution $$p(\theta\mid y)$$ is simply irrelevant, and it would be irrational (or incoherent) to attempt falsification, unless that somehow shows up in the posterior."
 
 __Like many statisticians before me__
@@ -76,7 +76,7 @@ checking and diagnostics
 In criticizing our models after inference, we can either justify
 use of the model or find directions in which we can revise the model.
 By revising the model, we go back to the modeling step, thus forming
-a loop, called _Box's loop_
+a loop which we call _Box's loop_
 ({% cite box1976science --style apa-text --file 2016-12-13 %},
 {% cite blei2014build --style apa-text --file 2016-12-13 %},
 {% cite gelman2013bayesian --style apa-text --file 2016-12-13 %}).
@@ -114,9 +114,9 @@ and of course the classic,
 {% cite rubin1984bayesianly --style apa-text --file 2016-12-13 %}.
 
 <sup>1</sup>
-I take an optimistic viewpoint to the trend of cycling among tools for
-machine learning. The trend is based on what works best empirically,
-and I think that's important.
+I take an optimistic viewpoint to this trend of cycling among tools
+in machine learning. The trend is based on what works best
+empirically, and I think that's important.
 
 <sup>2</sup>
 As a plug, I should also mention that this is what [Edward](http://edwardlib.org) is all about.
